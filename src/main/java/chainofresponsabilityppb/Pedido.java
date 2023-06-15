@@ -1,14 +1,14 @@
 package chainofresponsabilityppb;
 
-public class Documentacao {
-    private TipoDocumentacao tipoDocumentacao;
-    public Documentacao(TipoDocumentacao tipoDocumentacao) {
-        this.tipoDocumentacao = tipoDocumentacao;
+public class Pedido {
+    private IPedido pedido;
+    public Pedido(IPedido pedido) {
+        this.pedido = pedido;
     }
-    public TipoDocumentacao getTipoDocumentacao() {
-        return tipoDocumentacao;
+    public IPedido getPedido() {
+        return pedido;
     }
-    public void setTipoDocumentacao(TipoDocumentacao tipoDocumentacao) {
-        this.tipoDocumentacao = tipoDocumentacao;
+    public void setPedido(IPedido pedido) {
+        this.pedido = pedido;
     }
 }

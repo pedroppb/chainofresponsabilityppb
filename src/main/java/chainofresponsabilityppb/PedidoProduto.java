@@ -1,9 +1,9 @@
 package chainofresponsabilityppb;
 
-public class TipoDocumentacaoApresentacao implements TipoDocumentacao {
-    private static TipoDocumentacaoApresentacao tipoDcoumentoApresentacao = new TipoDocumentacaoApresentacao();
-    private TipoDocumentacaoApresentacao() {};
-    public static TipoDocumentacaoApresentacao getTipoDcoumentoApresentacao() {
-        return tipoDcoumentoApresentacao;
+public class PedidoProduto implements IPedido {
+    private static PedidoProduto pedidoProduto = new PedidoProduto();
+    private PedidoProduto() {};
+    public static PedidoProduto getPedidoProduto() {
+        return pedidoProduto;
     }
 }
